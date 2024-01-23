@@ -1,22 +1,49 @@
 :root{
     --footer-color:#2F303A;
     
-    --main-color:#ecedee;
+    --main-color:#ffffff;
+}
+@font-face {
+    font-family:"Roboto" ;
+    src: url( 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');}
+    
+@font-face {
+    font-family:"Raleway" ;
+    src: url( 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto";
     line-height: 1.6;
     color: #333;
 }
 main{
    background-color: var(--main-color);
 }
+span{
+    font-family: "Raleway";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
 
 header {
     background-color: var(--main-color);
     color: #212121;
     padding: 10px;
     text-align: start;
+}
+li p{
+    color: #757575;
+
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.48px;
 }
 
 header nav ul {
@@ -28,6 +55,18 @@ header nav ul li {
     display: inline;
     margin-right: 10px;
 }
+h3{
+    color: #212121;
+
+font-family: "Roboto";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 200% */
+letter-spacing: 1.08px;
+
+}
+
 
 header nav ul li a {
     color:  #212121;
@@ -93,12 +132,16 @@ li{
 .email{
     color: #2196F3;}
     .br{
-        font-weight: bold;
-        font-size: 30px;
-        color: #212121;
-        text-decoration: none;
+        color: #000;
+font-family: "Raleway";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+text-decoration: none;
     }
     .blue-color{
         color: #2196F3;
     }
-    
+ 
