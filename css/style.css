@@ -13,14 +13,7 @@ body {
 main{
    background-color: var(--main-color);
 }
-span{
-    font-family: "Raleway";
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
-}
+
 
 
 header {
@@ -29,7 +22,7 @@ header {
     padding: 10px;
     text-align: start;
 }
-li p{
+.portfolio-text{
     color: #757575;
 
 font-family: "Roboto";
@@ -49,7 +42,7 @@ header nav ul li {
     display: inline;
     margin-right: 10px;
 }
-h3{
+.portfolio-name{
     color: #212121;
 
 font-family: "Roboto";
@@ -117,15 +110,16 @@ li{
     list-style: none;
 }
 
-.white{
+.contact-Web{
     font-weight: bold;
     font-size: 30px;
     color: #FFFF;
     text-decoration: none;
+    font-family: "Raleway";
 }
-.email{
+.nav-text{
     color: #2196F3;}
-    .br{
+    .header-logo{
         color: #000;
 font-family: "Raleway";
 font-size: 26px;
