@@ -27,7 +27,7 @@ header {
 
 font-family: "Roboto";
 font-size: 16px;
-font-style: normal;
+
 font-weight: 400;
 line-height: 30px; /* 187.5% */
 letter-spacing: 0.48px;
@@ -47,7 +47,7 @@ header nav ul li {
 
 font-family: "Roboto";
 font-size: 18px;
-font-style: normal;
+
 font-weight: 700;
 line-height: 36px; /* 200% */
 letter-spacing: 1.08px;
@@ -123,7 +123,7 @@ li{
         color: #000;
 font-family: "Raleway";
 font-size: 26px;
-font-style: normal;
+
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
