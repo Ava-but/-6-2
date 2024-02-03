@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root{
     --footer-color:#2F303A;
-    
+    --body-color:#212121;
     --main-color:#ffffff;
+    --text-color:#757575;
+    --back-color:#2196F3;
+    --header-color:#333;
 }
 
 body {
     font-family: "Roboto";
     line-height: 1.6;
-    color: #333;
+    color: var(--header-color);
 }
 main{
    background-color: var(--main-color);
@@ -18,12 +21,12 @@ main{
 
 header {
     background-color: var(--main-color);
-    color: #212121;
+    color: var(--body-color);
     padding: 10px;
     text-align: start;
 }
 .portfolio-text{
-    color: #757575;
+    color: var(--text-color);
 
 font-family: "Roboto";
 font-size: 16px;
@@ -43,7 +46,7 @@ header nav ul li {
     margin-right: 10px;
 }
 .portfolio-name{
-    color: #212121;
+    color: var(--body-color);
 
 font-family: "Roboto";
 font-size: 18px;
@@ -56,42 +59,43 @@ letter-spacing: 1.08px;
 
 
 header nav ul li a {
-    color:  #212121;
+    color:  var(--body-color);
     
    text-decoration: none;
 }
 .button-main button[data-number="first"]{
     padding: 10px 20px;
-   background-color: #2196F3;
-    color: white;
+   background-color: var(--back-color);
+    color: var(--main-color
+    );
     border: none;
     cursor: pointer;
 }
 .button-main button[data-number="second"]{
     padding: 10px 20px;
    
-    color: #212121;
+    color: var(--body-color);
     border: none;
     cursor: pointer;
 }
 .button-main button[data-number="third"]{
     padding: 10px 20px;
    
-    color: #212121;
+    color: var(--body-color);
     border: none;
     cursor: pointer;
 }
 .button-main button[data-number="four"]{
     padding: 10px 20px;
    
-    color: #212121;
+    color: var(--body-color);
     border: none;
     cursor: pointer;
 }
 .button-main button[data-number="fifth"]{
     padding: 10px 20px;
    
-    color: #212121;
+    color: var(--body-color);
     border: none;
     cursor: pointer;
 }
@@ -102,7 +106,7 @@ footer {
 }
 
 footer p {
-    color: #FFFF;
+    color: var(--main-color);
     margin: 10px 0;
 }
 
@@ -113,14 +117,14 @@ li{
 .contact-Web{
     font-weight: bold;
     font-size: 30px;
-    color: #FFFF;
+    color: var(--main-color);
     text-decoration: none;
     font-family: "Raleway";
 }
 .nav-text{
-    color: #2196F3;}
+    color: var(--back-color);}
     .header-logo{
-        color: #000;
+        color: var(--body-color);
 font-family: "Raleway";
 font-size: 26px;
 
@@ -130,6 +134,6 @@ letter-spacing: 0.78px;
 text-decoration: none;
     }
     .blue-color{
-        color: #2196F3;
+        color: var(--back-color);
     }
  
