@@ -194,6 +194,7 @@ li {
 
 .header-list button:hover{
     background-color: var(--back-color);
+    color: var(--main-color);
     transition: 0.7s;
 
 }
